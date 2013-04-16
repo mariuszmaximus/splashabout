@@ -9,7 +9,7 @@ Compatible Lazarus > 1.x, FPC > 2.6.x, Windows and Linux tested
   *[HowToAdvanced, Shaped windows background images etc
 
 ===Standard Splash Window ===
-320px x 240px
+320px x 240px, displays for 2 seconds
 
 http://www.bamber.com/splashabout/wikiimages/standardsplashscreen.jpg
 
@@ -18,6 +18,9 @@ http://www.bamber.com/splashabout/wikiimages/standardsplashscreen.jpg
 
 http://www.bamber.com/splashabout/wikiimages/standardaboutbox.jpg
 
+Clicking the 'License' button produces this:
+
+http://www.bamber.com/splashabout/wikiimages/licensedialog.jpg
 
 ===Advanced Splash Windows===
 Size according to !MaskImage dimensions
