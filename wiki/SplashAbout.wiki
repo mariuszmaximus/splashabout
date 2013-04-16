@@ -20,10 +20,16 @@ http://www.bamber.com/splashabout/wikiimages/standardaboutbox.jpg
 
 
 ===Advanced Splash Windows===
-Size according to MaskImage dimensions
+Size according to !MaskImage dimensions
+
+*roundedrect.bmp*
 
 http://www.bamber.com/splashabout/wikiimages/shapedsplashscreen_roundedrect.jpg
 
+*bigcog.bmp*
+
 http://www.bamber.com/splashabout/wikiimages/shapedsplashscreen_bigcog.jpg
+
+*bigsplash.bmp*
 
 http://www.bamber.com/splashabout/wikiimages/shapedsplashscreen_bigsplash.jpg
