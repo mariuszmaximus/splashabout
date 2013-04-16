@@ -5,5 +5,7 @@
 by Gordon Bamber
 Compatible Lazarus > 1.x, FPC > 2.6.x, Windows and Linux tested
 
-  *[HowToBasic,Basic use
-  *[HowToAdvanced,Shaped windows background images etc
+  *[HowToBasic, Basic use
+  *[HowToAdvanced, Shaped windows background images etc
+
+See: [http://code.google.com/p/splashabout/source/browse/trunk/%20splashabout%20--username%20torrenter%40gmail.com/readme.txt, Read Me]
