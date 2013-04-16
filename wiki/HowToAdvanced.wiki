@@ -6,6 +6,8 @@
 
 As well as [HowToBasic basic use], you can set the following properties after splash.Create(nil) and before calling splash.!ShowSplash
 
+If you set no properties, !ShowSplash and !ShowAbout will use built-in defaults.
+
   * splash.!DelaySeconds:=3; // OPTIONAL. Default is 2 Seconds
   * splash.Title:='My Superb App'; // OPTIONAL. Default is Application Title or Form Caption
   * splash.!IconFilePath:='myicon.ico'; // OPTIONAL.  Default is Application.Icon or Form.Icon
