@@ -7,3 +7,13 @@ Compatible Lazarus > 1.x, FPC > 2.6.x, Windows and Linux tested
 
   *[HowToBasic, Basic use
   *[HowToAdvanced, Shaped windows background images etc
+
+===Standard Splash Window ===
+http://www.bamber.com/splashabout/wikiimages/standardsplashscreen.jpg
+
+===Advanced Splash Windows===
+http://www.bamber.com/splashabout/wikiimages/shapedsplashscreen_roundedrect.jpg
+
+http://www.bamber.com/splashabout/wikiimages/shapedsplashscreen_bigcog.jpg
+
+http://www.bamber.com/splashabout/wikiimages/shapedsplashscreen_bigsplash.jpg
