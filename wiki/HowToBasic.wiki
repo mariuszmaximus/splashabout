@@ -6,10 +6,10 @@ Files needed (in the same folder as your project)
 ================================================
 *usplashabout.pas,uversion.pas*
 
-*  Optional: gpl.txt, lgpl.txt,modifiedgpl.txt,mit.txt
-*  Optional: splashgraphic.(bmp/jpg/gif)
-*  Optional: splashicon.ico
-*  Optional: windowshapegraphic.bmp
+  * Optional: gpl.txt, lgpl.txt,modifiedgpl.txt,mit.txt
+  * Optional: splashgraphic.(bmp/jpg/gif)
+  * Optional: splashicon.ico
+  * Optional: windowshapegraphic.bmp
 
 ===How to use in your project===
 
