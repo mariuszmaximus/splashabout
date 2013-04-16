@@ -1,4 +1,4 @@
-#sidebar TableOfContents
+#summary Menu page and Screen Shots
 = Introduction =
 
 !SplashAbout Lazarus/FPC component
