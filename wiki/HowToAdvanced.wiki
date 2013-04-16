@@ -2,7 +2,7 @@
 
 =How To (Advanced)=
 
-As well as [HowToBasic, basic use], you can set the following properties:
+As well as [HowToBasic basic use], you can set the following properties:
 
   * splash.!DelaySeconds:=3; // OPTIONAL. Default is 2 Seconds
   * splash.Title:='My Superb App'; // OPTIONAL. Default is Application Title or Form Caption
