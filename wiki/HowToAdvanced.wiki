@@ -1,4 +1,6 @@
 #summary Use of optional properties
+  *[HowToBasic, Basic use
+  *[SplashAbout, Menu page
 
 =How To (Advanced)=
 
