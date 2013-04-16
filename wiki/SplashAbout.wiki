@@ -9,13 +9,19 @@ Compatible Lazarus > 1.x, FPC > 2.6.x, Windows and Linux tested
   *[HowToAdvanced, Shaped windows background images etc
 
 ===Standard Splash Window ===
+320px x 240px
+
 http://www.bamber.com/splashabout/wikiimages/standardsplashscreen.jpg
 
 ===Standard About Dialog===
+320px x 240px
+
 http://www.bamber.com/splashabout/wikiimages/standardaboutbox.jpg
 
 
 ===Advanced Splash Windows===
+Size according to MaskImage dimensions
+
 http://www.bamber.com/splashabout/wikiimages/shapedsplashscreen_roundedrect.jpg
 
 http://www.bamber.com/splashabout/wikiimages/shapedsplashscreen_bigcog.jpg
