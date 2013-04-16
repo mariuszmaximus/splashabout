@@ -11,6 +11,10 @@ Compatible Lazarus > 1.x, FPC > 2.6.x, Windows and Linux tested
 ===Standard Splash Window ===
 http://www.bamber.com/splashabout/wikiimages/standardsplashscreen.jpg
 
+===Standard About Dialog===
+http://www.bamber.com/splashabout/wikiimages/standardaboutbox.jpg
+
+
 ===Advanced Splash Windows===
 http://www.bamber.com/splashabout/wikiimages/shapedsplashscreen_roundedrect.jpg
 
