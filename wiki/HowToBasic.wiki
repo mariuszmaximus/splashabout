@@ -1,5 +1,8 @@
 #summary Minimum code necessary to use the component
 
+  *[SplashAbout, Menu Page
+  *[HowToAdvanced, Shaped windows background images etc
+
 = Basic Use =
 
 Files needed (in the same folder as your project)
