@@ -16,8 +16,9 @@ Files needed (in the same folder as your project)
 
 ===How to use in your project===
 
-Put *usplashabout* in the interface/uses of your main form
-Declare a variable of type TSplashAbout in your form type definition
+  * Put *usplashabout* in the interface/uses of your main form
+  * Declare a variable of type TSplashAbout in your form type definition
+  * Call method !ShowSplash and/or method !ShowAbout
 
 Example:
 {{{
