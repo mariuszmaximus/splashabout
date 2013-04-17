@@ -43,3 +43,5 @@ splash:=TSplashAbout.Create(Self);
 // (Uses Application.Title and project Icon by default)
 splash.ShowSplash
 }}}
+
+_Note:_ There is a fuller example code listing [ExampleCode here]
