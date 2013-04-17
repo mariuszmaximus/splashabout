@@ -41,4 +41,14 @@ The Download package includes a few !MaskImage .BMP files to show an example.
 ===Showing a License dialog===
   # Set the !LicenseFilePath property to be one of the included text files (gpl.txt, modifiedgpl.txt etc.)  The chosen text file must be deployed in the same folder as your application.
   # Match the !LicenseType property with your chosen license (optional)
-_Note:_ The text in the displayed license dialog will use the property values of !CreditString, Author and !SupportContact 
+_Note:_ The text in the displayed license dialog will use the property values of !CreditString, Author and !SupportContact
+
+===A background image for your Splash and About dialogs===
+  # Choose any JPG file and resize to 320 x 240px
+    * !SplashAbout will automatically resize bigger images, (but that would waste file space)
+  # Set the property !BackgroundFilePath to the filename.
+    * You could set a full path+filename is you deploy it outside your application's folder
+  # Deploy the jpg image in the same folder as your deployed app
+If you don't want a background image, and the property !BackGroundColor is blank, then the dialogs with use clDefault as a colour (usually white or grey)
+
+You can set the property !BackGroundColor to any predefined FPC color (starting with cl - like clWhite, clWindowBackground etc)
