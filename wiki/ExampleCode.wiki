@@ -1,9 +1,13 @@
 #summary Example code.
 #labels CodeSample
 
+  * [SplashAbout Home]
+
 = Copy/Paste code =
 
-This gives you an idea of how to use SplashAbout in a project.  It will use the Project version numbers, application title and the project application Icon.  Set this as normal in Project/Options.
+This gives you an idea of how to use !SplashAbout in a project.  It will use the Project version numbers, application title and the project application Icon.
+
+Set these as normal in Project/Options and !SplashAbout will display them.
 
 {{{
 unit Unit1;
