@@ -24,6 +24,7 @@ If you set no properties, !ShowSplash and !ShowAbout will use built-in defaults 
   * *splash.!SupportContact*:='minesadorada@charcodelvalle.com'; // OPTIONAL.  Default is boilerplate text in !LicenseFilePath
 
 ==Making a !MaskImage==
+This is how you get a cool-looking shaped Splash window
 ===Method 1===
   # In any graphics application, start with a black image of any size (above 320px x 240px)
   # Make a shape in the image with a White brush/paint (this will be the visible area of the Splash screen)
