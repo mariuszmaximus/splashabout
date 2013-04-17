@@ -3,7 +3,7 @@
 
 = Copy/Paste code =
 
-This gives you an idea of how to use SplashAbout in a project.
+This gives you an idea of how to use SplashAbout in a project.  It will use the Project application title and the project application Icon.  Set the Version numbers in Project options.
 
 {{{
 unit Unit1;
