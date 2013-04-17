@@ -32,7 +32,7 @@ This is how you get a cool-looking shaped Splash window when setting the *!MaskI
   # Save as a regular Windows Bitmap, and deploy in the same folder as your app
 ===Method 2===
   # In any graphics application make a JPG graphic using only Black and White
-  # In your app, set *!MaskImageFilePath* to your JPG and run !ShowSplash
+  # In your app, set *!MaskImageFilePath* to your JPG and call the *!ShowSplash* method
   # !SplashAbout will convert your JPG to a BMP (with a warning message)
   # Open the generated BMP in a graphics package and reduce the color count to bring the file size down
 
