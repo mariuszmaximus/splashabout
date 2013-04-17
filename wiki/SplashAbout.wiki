@@ -24,7 +24,7 @@ Clicking the 'License' button produces this:
 http://www.bamber.com/splashabout/wikiimages/licensedialog.jpg
 
 ===Advanced Splash Windows===
-Size according to !MaskImage dimensions
+Size according to !MaskImage dimensions. See [HowToAdvanced this page] for instructions to make your own shapes.
 
 *roundedrect.bmp*
 
