@@ -51,4 +51,11 @@ _Note:_ The text in the displayed license dialog will use the property values of
   # Deploy the jpg image in the same folder as your deployed app
 If you don't want a background image, and the property !BackGroundColor is blank, then the dialogs with use clDefault as a colour (usually white or grey)
 
-You can set the property !BackGroundColor to any predefined FPC color (starting with cl - like clWhite, clWindowBackground etc)
+_Note:_ You can set the property !BackGroundColor to any predefined FPC color (starting with cl - like clWhite, clWindowBackground etc)
+
+===Title and !IconFilePath===
+  * You can specify these using properties or let !SplashAbout fetch them for you from the Application resources
+  * To use the Icon and Title from your main form
+    * Use *Self* in the Create method eg. *splash.Create(Self)*
+  * To use the Icon and Title from your project settings
+    * Use *Nil* in the Create method eg. *splash.Create(Nil)*
