@@ -47,7 +47,7 @@ _Note:_ The text in the displayed license dialog will use the property values of
   # Choose any JPG file and resize to 320 x 240px
     * !SplashAbout will automatically resize bigger images, (but that would waste file space)
   # Set the property !BackgroundFilePath to the filename.
-    * You could set a full path+filename is you deploy it outside your application's folder
+    * You could set a full path+filename if you deploy it outside your application's folder
   # Deploy the jpg image in the same folder as your deployed app
 If you don't want a background image, and the property !BackGroundColor is blank, then the dialogs with use clDefault as a colour (usually white or grey)
 
