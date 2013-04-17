@@ -24,7 +24,7 @@ If you set no properties, !ShowSplash and !ShowAbout will use built-in defaults 
   * *splash.!SupportContact*:='minesadorada@charcodelvalle.com'; // OPTIONAL.  Default is boilerplate text in !LicenseFilePath
 
 ==Making a !MaskImage==
-This is how you get a cool-looking shaped Splash window when setting the !MaskImageFilePath property.
+This is how you get a cool-looking shaped Splash window when setting the *!MaskImageFilePath* property.
 ===Method 1===
   # In any graphics application, start with a black image of any size (above 320px x 240px)
   # Make a shape in the image with a White brush/paint (this will be the visible area of the Splash screen)
@@ -32,26 +32,26 @@ This is how you get a cool-looking shaped Splash window when setting the !MaskIm
   # Save as a regular Windows Bitmap, and deploy in the same folder as your app
 ===Method 2===
   # In any graphics application make a JPG graphic using only Black and White
-  # In your app, set !MaskImageFilePath to your JPG and run !ShowSplash
+  # In your app, set *!MaskImageFilePath* to your JPG and run !ShowSplash
   # !SplashAbout will convert your JPG to a BMP (with a warning message)
   # Open the generated BMP in a graphics package and reduce the color count to bring the file size down
 
 The Download package includes a few !MaskImage .BMP files to show an example.
 
 ===Showing a License dialog===
-  # Set the !LicenseFilePath property to be one of the included text files (gpl.txt, modifiedgpl.txt etc.)  The chosen text file must be deployed in the same folder as your application.
-  # Match the !LicenseType property with your chosen license (optional)
-_Note:_ The text in the displayed license dialog will use the property values of !CreditString, Author and !SupportContact
+  # Set the *!LicenseFilePath* property to be one of the included text files (gpl.txt, modifiedgpl.txt etc.)  The chosen text file must be deployed in the same folder as your application.
+  # Match the *!LicenseType* property with your chosen license (optional)
+_Note:_ The text in the displayed license dialog will use the property values of *!CreditString*, *Author* and *!SupportContact*
 
 ===A background image for your Splash and About dialogs===
   # Choose any JPG file and resize to 320 x 240px
     * !SplashAbout will automatically resize bigger images, (but that would waste file space)
-  # Set the property !BackgroundFilePath to the filename.
+  # Set the property *!BackgroundFilePath* to the filename.
     * You could set a full path+filename if you deploy it outside your application's folder
   # Deploy the jpg image in the same folder as your deployed app
 If you don't want a background image, and the property !BackGroundColor is blank, then the dialogs with use clDefault as a colour (usually white or grey)
 
-_Note:_ You can set the property !BackGroundColor to any predefined FPC color (starting with cl - like clWhite, clWindowBackground etc)
+_Note:_ You can set the property *!BackGroundColor* to any predefined FPC color (starting with cl - like clWhite, clWindowBackground etc)
 
 ===Title and !IconFilePath===
   * You can specify these using properties or let !SplashAbout fetch them for you from the Application resources
@@ -59,6 +59,6 @@ _Note:_ You can set the property !BackGroundColor to any predefined FPC color (s
     * Use *Self* in the Create method eg. *splash.Create(Self)*
   * To use the Icon and Title from your project settings
     * Use *Nil* in the Create method eg. *splash.Create(Nil)*
-_Note:_ If you set the !IconFilePath property, you must deploy the .ico file with your application
+_Note:_ If you set the *!IconFilePath* property, you must deploy the .ico file with your application
 
 ----
