@@ -9,19 +9,19 @@ As well as [HowToBasic basic use], you can set the following properties after sp
 
 If you set no properties, !ShowSplash and !ShowAbout will use built-in defaults (and will look quite dull!)
 
-  * splash.!DelaySeconds:=3; // OPTIONAL. Default is 2 Seconds
-  * splash.Title:='My Superb App'; // OPTIONAL. Default is Application Title or Form Caption
-  * splash.!IconFilePath:='myicon.ico'; // OPTIONAL.  Default is Application.Icon or Form.Icon
-  * splash.!BackGroundImageFilePath:='splash.jpg'; // OPTIONAL.  Default is no Background Image. Optimal size=320 x 240
-  * splash.!MaskImageFilePath:='roundedrect.bmp'; // OPTIONAL.
+  * *splash.!DelaySeconds*:=3; // OPTIONAL. Default is 2 Seconds
+  * *splash.Title*:='My Superb App'; // OPTIONAL. Default is Application Title or Form Caption
+  * *splash.!IconFilePath*:='myicon.ico'; // OPTIONAL.  Default is Application.Icon or Form.Icon
+  * *splash.!BackGroundImageFilePath*:='splash.jpg'; // OPTIONAL.  Default is no Background Image. Optimal size=320 x 240
+  * *splash.!MaskImageFilePath*:='roundedrect.bmp'; // OPTIONAL.
   _!MaskImageFilePath makes a shaped splash form. Optimum source: .BMP image, 2-bit color depth or more, black area=invisible, white area=visible. Size >= 320 x 240_
   _If a jpg file is specified by mistake, it will be converted to a (large filesize 24bbp!) .bmp and saved to disk on first run_
-  * splash.!BackGroundColor:=clSkyBlue; // OPTIONAL.  Only relavent if no background image specified.  Default is clDefault
-  * splash.!LicenseFilePath:='gpl.txt'; // OPTIONAL.  Default is for Licence button to be absent on !ShowAbout method
-  * splash.!LicenseType:='Public GPL License'; // OPTIONAL.  Default is no text
-  * splash.!CreditString:='Freeware by minesadorada'; // OPTIONAL.  Default is no text
-  * splash.Author:='Mines A. Dorada'; // OPTIONAL.  Default is boilerplate text in !LicenseFilePath
-  * splash.!SupportContact:='minesadorada@charcodelvalle.com'; // OPTIONAL.  Default is boilerplate text in !LicenseFilePath
+  * *splash.!BackGroundColor*:=clSkyBlue; // OPTIONAL.  Only relavent if no background image specified.  Default is clDefault
+  * *splash.!LicenseFilePath*:='gpl.txt'; // OPTIONAL.  Default is for Licence button to be absent on !ShowAbout method
+  * *splash.!LicenseType*:='Public GPL License'; // OPTIONAL.  Default is no text
+  * *splash.!CreditString*:='Freeware by minesadorada'; // OPTIONAL.  Default is no text
+  * *splash.Author*:='Mines A. Dorada'; // OPTIONAL.  Default is boilerplate text in !LicenseFilePath
+  * *splash.!SupportContact*:='minesadorada@charcodelvalle.com'; // OPTIONAL.  Default is boilerplate text in !LicenseFilePath
 
 ==Making a !MaskImage==
 ===Method 1===
