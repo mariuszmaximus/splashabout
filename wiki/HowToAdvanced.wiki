@@ -59,3 +59,6 @@ _Note:_ You can set the property !BackGroundColor to any predefined FPC color (s
     * Use *Self* in the Create method eg. *splash.Create(Self)*
   * To use the Icon and Title from your project settings
     * Use *Nil* in the Create method eg. *splash.Create(Nil)*
+_Note:_ If you set the !IconFilePath property, you must deploy the .ico file with your application
+
+----
