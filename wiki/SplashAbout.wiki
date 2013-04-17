@@ -7,6 +7,7 @@ Compatible Lazarus > 1.x, FPC > 2.6.x, Windows and Linux tested
 
   *[HowToBasic, Basic use
   *[HowToAdvanced, Shaped windows background images etc
+  *[ExampleCode, Copy/paste into your app code
 
 ===Standard Splash Window ===
 320px x 240px, displays for 2 seconds
